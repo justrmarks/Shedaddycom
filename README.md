@@ -9,4 +9,6 @@
 <p> This is an app to display all the work that she does in a way that shows
 how all of these projects do not exist in a vacuum and serve to enrich and enhance
 the quality of the work and the community it's enacted in <p>
+  
+  <h2> A work in progress ;) </h2>
 # Shedaddycom
