@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i');
+
+
+/* reset the autostyles */
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  /* overflow-x: hidden; */
+  }
+
+
+.headerBlock {
+font-family: 'Baloo Bhai';
+background-color: pink;
+padding: 25px;
+margin-left: 0;
+margin-right: 0;
+text-align: left;
+overflow: auto;
+height: 100vh;
+
+}
+
+.headerBlock h2 {
+  color: #fff;
+  font-size: auto;
+
+}
+
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 0;
+  background-color: #FFF;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100vw;
+
+}
+
+
+/* flex container */
+.blockList {
+
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+
+}
+
+  .block {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-color: yellow;
+  /*  padding-top: 4vmin;
+     padding-left: 3vmax;
+    padding-right: 3vmax; */
+    border-left: 4px solid black;
+    height: 100vh;
+    font-size: 5vh;
+    font-weight: 900;
+
+
+  }
+
+  .block p {
+    font-family: 'open-sans';
+    font-weight: 100;
+
+
+  }
+
+
+  .bodyBlock {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-family:'Roboto Mono';
+  overflow: hidden;
+  }
+
+
+
+
+
+a
+ {
+  padding-right: 20px;
+  text-decoration: none;
+  color: grey;
+  font-family: "roboto slab";
+  transition: font-weight 1.5s, font-size 1s;
+
+}
+
+a:hover {
+  font-size: 1.5rem;
+}
+
+button {
+  width: 5%;
+  height: auto;
+  padding-top: 5%;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+button:focus {
+  outline:none;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .headerBlock {
+    height: 66vh;
+  }
+  .mainContent {
+    flex-direction: row;
+
+  }
+
+
+  .block {
+    height: auto;
+    font-size: 15px;
+    width: auto;
+
+
+  }
+
+}
